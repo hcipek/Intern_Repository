@@ -1,0 +1,19 @@
+1000 insert ediliyor
+Insert edilme süresi : 0 saniye.
+Commit edilme süresi : 0 saniye.
+Rollback edilme süresi : 0 saniye.
+
+10000 insert ediliyor
+Insert edilme süresi : 0 saniye.
+Commit edilme süresi : 0 saniye.
+Rollback edilme süresi : 0 saniye.
+
+100000 insert ediliyor
+Insert edilme süresi : 2 saniye.
+Commit edilme süresi : 0 saniye.
+Rollback edilme süresi : 0 saniye.
+
+1000000 insert ediliyor
+Insert edilme süresi : 30 saniye.
+Commit edilme süresi : 0 saniye.
+Rollback edilme süresi : 0 saniye.
