@@ -1,6 +1,6 @@
 /* Author : Hakan C. ?pek
 27.06.2018
-This function gets employee id and return its name from employees table.
+This function gets employee id and return its name from employees table Throws a exception when input is out of employee_id range.
 */
 CREATE OR REPLACE FUNCTION hr.func_get_emp_first_name(pin_id IN HR.EMPLOYEES.EMPLOYEE_ID%TYPE ) RETURN VARCHAR2
 IS
