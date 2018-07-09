@@ -1,7 +1,7 @@
 100000 insert ediliyor
-Insert edilme süresi : 249.
-Sequence edilme süresi : 164.
+Insert edilme sÃ¼resi : 249.
+Sequence edilme sÃ¼resi : 164.
 
-100000 insert ediliyor
-Insert edilme süresi : 598.
-Sequence edilme süresi : 159.
+100000 insert ediliyor(Indexli hali)
+Insert edilme sÃ¼resi : 598.
+Sequence edilme sÃ¼resi : 159.
