@@ -1,0 +1,7 @@
+100000 insert ediliyor
+Insert edilme süresi : 249.
+Sequence edilme süresi : 164.
+
+100000 insert ediliyor
+Insert edilme süresi : 598.
+Sequence edilme süresi : 159.
