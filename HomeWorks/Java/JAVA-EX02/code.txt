@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class outputer {
+
+	private static primeChecker primer;
+	private static Scanner in;
+	public static void main(String[] args) {
+		in = new Scanner(System.in);
+		System.out.println("Enter your max number: ");
+		int maxNumber = in.nextInt();
+		primer = new primeChecker(1,maxNumber);
+		primer.calculatePrimes();
+
+		
+		
+
+	}
+
+}
+///////////
+
+
+public class primeChecker {
+	private int minNumber;
+	private int maxNumber;
+	
+	public primeChecker(int minNumber, int maxNumber){
+		this.minNumber = minNumber;
+		this.maxNumber = maxNumber;
+	}
+	public int getMinNumber(){
+		return minNumber;
+	}
+	public int getMaxNumber(){
+		return maxNumber;
+	}
+	public void calculatePrimes(){
+		int a;
+		int count;
+		while(minNumber<maxNumber){
+			if(minNumber>2){
+				a=2;
+				count=2;
+				while(a < minNumber){
+					if( minNumber%a == 0){
+						a = minNumber;
+					}
+					else
+						count++;
+						a++;
+				}
+				
+				if(minNumber == (count))
+					System.out.println(minNumber);
+			}
+			else if(minNumber == 2)
+				System.out.println(minNumber);
+		minNumber++;
+		}
+	}
+}

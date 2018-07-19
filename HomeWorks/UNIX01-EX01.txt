@@ -1,0 +1,26 @@
+1.A. 	->$ sed s/\"//g cdrdosyasi.txt
+	->$ cat cdrdosyasi.txt
+
+1.B. 	->$ awk -F "," '{print $1, $2, $3, 90 $4}' cdrdosyasi.txt
+	->$ cat cdrdosyasi.txt
+
+1.C. 	->$ awk '{print $1, $2, $3, $4, $3-$2;}' cdrdosyasi.txt
+	->$ cat cdrdosyasi.txt
+
+2.A 	->$ grep -r '"0","0","0","0","0","0","0","0","0","0","0","0"' psmkota20170526091500.txt > psmkota20170526091500.txt.filter
+OR  	->$ awk '"0","0","0","0","0","0","0","0","0","0","0","0"' psmkota20170526091500.txt > psmkota20170526091500.txt.filter
+	->$ cat psmkota20170526091500.txt.filter
+
+2.B 	->$ grep -v '"0","0","0","0","0","0","0","0","0","0","0","0"' psmkota20170526091500.txt>psmkota20170526091500.txt.dat
+	->$ cat psmkota20170526091500.txt.dat
+
+3.	->$ cd testuser
+	->$ mkdir yourname
+	->$ cd yourname
+	->$ mkdir bin
+	->$ cd bin
+	->$ cd /
+	->$ cd home
+	->$ export PATH=$PATH:/home/testuser/yourname/bin
+	->$ cd testuser/yourname/bin
+	->$ pwd
